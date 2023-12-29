@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Inconsolata&family=Poppins&family=Quicksand&family=Roboto&family=Roboto+Mono&family=Work+Sans&display=swap" rel="stylesheet">
+    <title>Role-playing Game</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="containerb">
+            <div class="displayA">
+                <img src="/RPG/img/5959989.png" class="avatar" id="ava" alt="" srcset="">
+
+                <ul>
+                    <li>Name: <div id="user"></div></li>
+                    <li>Health: <div id="hitpoint"></div></li>
+                    <li>level: <div id="level"></div></li>
+                </ul>
+            </div>
+
+            <div class="housing">
+                <button type="button" id="fight" onclick="opponent()">Go fight!</button>
+                <button type="button" id="store">Store</button>
+                <button type="button" id="escape">Run!</button>
+            </div>
+
+        </div>
+
+        <div class="display">
+            <div class="title"> 
+                Message
+            </div>
+
+            <div class="info" id="speaker">
+                
+            </div>
+
+            
+        </div>
+    </div>
+</body>
+<script src="/RPG/script.js"></script>
+</html>
